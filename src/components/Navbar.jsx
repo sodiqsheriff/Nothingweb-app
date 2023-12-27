@@ -14,9 +14,9 @@ const Navbar =()=>{
 
     return(
         <>
-<div className="fixed z-50 w-full bg-white flex items-center justify-between px-5 py-2 md:py-4 md:px-16 lg:px-24"> 
+<div className="fixed z-50 w-full bg-white flex items-center justify-between px-5 py-2 md:py-4 md:px-10 lg:px-24"> 
 <div className="">
-    <h1 className="text-2xl font-black font-raleway uppercase md:text-3xl lg:text-4xl">nothing</h1>
+    <h1 className="text-2xl font-black font-raleway uppercase md:text-2xl lg:text-4xl">nothing</h1>
 </div>
   {/* nav-links for small screens */}
   <div className=" top-0 r-0 p-4 md:hidden">
@@ -44,7 +44,7 @@ const Navbar =()=>{
     )}
 </div>
 {/* nav-links for medium screen and up */}
-<div className="hidden md:flex space-x-8 items-center font-200">
+<div className="hidden md:flex md:font-sm space-x-4 lg:space-x-8 items-center font-200">
   <span className="capitalize hover:opacity-50 font-figtree">
     <a href="">phone</a>
   </span>
@@ -62,7 +62,7 @@ const Navbar =()=>{
   </span>
 </div>       
 {/* nav-icons */}
-<div className="hidden md:flex items-center space-x-12">
+<div className="hidden md:flex items-center space-x-8 lg:space-x-12 ">
     <div className="relative">
         <div className={`cursor-pointer p-2 ${isActive ? 'hidden':''}`} onClick={()=> setIsActive(true)}>
         <FiSearch className='text-xl' />

@@ -12,7 +12,7 @@ const Herosection =()=> {
                 </h1>
                 <h1 className="text-sm text-center font-bold font-figtree pb-5 md:text-lg">View models</h1>
             </section>
-            <div className="flex justify-center w-full">
+            <div className="flex bg-blue-300 justify-center w-full">
                 <img src={heroimage} alt="nothing phone"  className='w-full'/>
                 </div>
 

@@ -81,7 +81,7 @@ const Imageswitcher = () => {
         <div className="absolute bottom-0 right-0 text-white p-4">
           {selectedImage === 'Enhanced performance' && (
             <div className='py-7 pr-5 md:py-10 md:pr-10 '>
-              <h2 className="flex justify-end text-right text-xl md:text-[50px] font-black font-raleway uppercase pb-10">enhanced performance</h2>
+              <h2 className="flex justify-end text-right text-xl md:text-3xl lg:text-[50px] font-black font-raleway uppercase pb-10">enhanced performance</h2>
               <span className="flex justify-end w-full">
               <p className='text-right text-sm md:text-lg text-gray-400 font-figtree'>Always by your side. We optimised Ear (2) so you can enjoy up to 36 hours of music 
                <br /> playback with the case. And 8 hours after just 10 minutes of charge. With Low Lag
@@ -93,7 +93,7 @@ const Imageswitcher = () => {
           )}
           {selectedImage === 'Water resistance' && (
              <div className='py-7 pr-5 md:py-10 md:pr-10 '>
-             <h2 className="flex justify-end text-right text-xl md:text-[50px] font-black font-raleway uppercase pb-10">water resistance</h2>
+             <h2 className="flex justify-end text-right  text-xl md:text-3xl lg:text-[50px] font-black font-raleway uppercase pb-10">water resistance</h2>
              <span className="flex justify-end w-full">
              <p className='text-right text-sm md:text-lg text-gray-400 font-figtree'>Made to keep up with you.Ear (2)  has an IP54 sweat and dust-resistance
               <br /> rating so performance is protected in any environment.With a charging case
@@ -104,7 +104,7 @@ const Imageswitcher = () => {
           )}
           {selectedImage === 'Press control' && (
            <div className='py-7 pr-5 md:py-10 md:pr-10 '>
-           <h2 className="flex justify-end text-right text-xl md:text-[50px] font-black font-raleway uppercase pb-10">water resistance</h2>
+           <h2 className="flex justify-end text-right text-xl md:text-3xl lg:text-[50px] font-black font-raleway uppercase pb-10">water resistance</h2>
            <span className="flex justify-end w-full">
            <p className='text-right text-sm md:text-lg text-gray-400 font-figtree'>Every action, accurately controlled.Skips tracks.Switch between noise
             <br /> cancellation modes.And adjust volume.All in a press.Customised for your 

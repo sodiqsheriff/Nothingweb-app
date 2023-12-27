@@ -31,7 +31,7 @@ const Phonesection =()=>{
     return(
         <div className="relative z-10" style={{backgroundColor:'black'}}>
            <div className='flex flex-wrap py-12 md:py-16 lg:py-20' >
-            <div className="grid w-full h-full px-5 md:grid-cols-2 md:px-10 gap-10">
+            <div className="grid w-full h-full px-5 md:px-10 gap-10 lg:grid-cols-2">
                 {divContents.map((content, index)=>(
                     <div key={index}className=" relative rounded-2xl h-screen w-full p-4 bg-cover bg-center transition-all duration-3000 ease-in-out mb-4 " style={{backgroundImage:`url("${content.image}")`}}
                     onMouseEnter={()=> handleHover(index)}
