@@ -4,9 +4,9 @@ const Preview=()=>{
     return(
      <div className="bg-black text-white py-7">
         <section className="text-center">
-            <h1 className="text-2xl font-figtree uppercase pb-3 md:text- lg:text-4xl">ear (stick)</h1>
+            <h1 className="text-2xl font-raleway uppercase pb-3 md:text- lg:text-4xl">ear (stick)</h1>
             <span className="w-full flex justify-center text-center pb-3">
-            <h1 className="hidden md:flex-col text-md font-figtree font-light">
+            <h1 className="hidden md:flex flex-col text-md font-figtree font-light">
             Tech you can’t feel. Leaving just space for sound to come to life. Powered by 
             <br />custom sound technology. Beautifully authentic, at any frequency.
             </h1>
