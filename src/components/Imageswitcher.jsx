@@ -46,9 +46,9 @@ const Imageswitcher = () => {
 
   return (
     
-    <div className="relative h-screen overflow-y-hidden">
+    <div className="relative h-screen ">
     <div
-      className="h-screen bg-cover bg-center"
+      className="h-full bg-cover bg-center"
       style={{ backgroundImage: `url(${getImage()})` }}
     >
       <div className="absolute inset-0  flex px-16 pt-16 text-lg font-figtree">

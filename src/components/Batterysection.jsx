@@ -14,15 +14,17 @@ const Battery =()=>{
     ];
     return(
        <>
-        <h1 className="text-4xl text-center tracking-wider py-7 uppercase">
+        <h1 className="text-2xl md:text-4xl font-semibold text-center tracking-wider py-10 uppercase">
             designed for you
         </h1>
-         <div className="flex flex-col px-5 py-8 md:px-10 md:flex-row gap-5">
+         <div className="flex flex-col px-5  md:px-10 md:flex-row gap-5">
             {earbuds.map((earbud)=>
             (
-              <div key={earbud.id} className="bg-blue-50 pt-5">
-                <h1 className="font-bold text-3xl text-center uppercase">{earbud.heading} </h1>
-                <h1 className="text-center text-sm pb-10">{earbud.subheading}</h1>
+              <div key={earbud.id} className="bg-gray-200 pt-5">
+                <span className="w-full flex text-center justify-center">
+                <h1 className="w-60 text-2xl font-bold md:text-4xl  pb-2 text-center uppercase">{earbud.heading} </h1>
+                </span>
+                <h1 className="text-center text-sm ">{earbud.subheading}</h1>
                 <div className="">
                     <img src={earbud.image} alt="budsimage" className='w-full h-screen' />
                     </div>
