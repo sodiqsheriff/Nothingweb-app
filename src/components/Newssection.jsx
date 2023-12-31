@@ -5,7 +5,7 @@ import news from '../assets/News.png'
     <div className='pt-12 pb-10 px-5'>
     <h1 className="text-center uppercase text-4xl font-bold">news</h1>
     <div className='flex flex-col px-5  md:flex-row items-center md:px-10 md:gap-3'>
-      <div className="flex-col space-y-6">
+      <div className="flex-col space-y-6 w-1/2">
       <section className=" border-gray-300 border-b">
             <h1 className="text-md font-semibold font-figtree w-[325px] pb-3">
               Nothing raises $100 million to build the apple of android.
@@ -35,7 +35,7 @@ import news from '../assets/News.png'
 
       </div>
           
-      <div className="flex-col">
+      <div className="flex-col w-1/2">
         <img src={news} alt="" />
       </div>
 
