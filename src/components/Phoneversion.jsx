@@ -4,7 +4,7 @@ const Phoneversion=()=>{
        <div className="bg-blue-50 flex justify-center items-center mt-8 py-12 md:py-20">
         <section className="space-y-8 md:space-y-16">
             <span className="flex flex-row justify-center">
-            <h1 className="text-center uppercase text-3xl md:text-4xl lg:text-4xl font-black font-raleway tracking-wider">android 14 beta 3</h1>
+            <h1 className="text-center uppercase text-3xl md:text-4xl lg:text-5xl font-black font-raleway tracking-wider">android 14 beta 3</h1>
             </span>
         <div className="flex flex-row justify-center items-center w-full md:ps-16 lg:ps-20">
         <div className='border-dotted border-black border-r-4 px-5 md:px-7 lg:px-10'>
